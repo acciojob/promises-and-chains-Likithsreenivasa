@@ -5,7 +5,7 @@
       const age = parseInt(ageInput.value);
 
       if (!ageInput.value || !nameInput.value) {
-        alert("All fields are necessary to fill, please.");
+        alert("Please enter valid details");
         return;
       }
 
